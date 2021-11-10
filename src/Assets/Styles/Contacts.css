@@ -1,0 +1,66 @@
+.contacts_container_with_tittle {
+  text-align: center;
+}
+
+.dynamic_tittle {
+    color: var(--clr-header-color);
+    font-size: 2rem;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+
+}
+
+.contact_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+    width: 45%;
+}
+
+.contact_card_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: start;
+}
+
+.contact_card_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.contact_card_information {
+    font-size: large;
+    margin-top: 0.5rem;
+    color: var(--clr-font-color);
+}
+
+.edit_contact_btn {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    font-size: large;
+    color: var(--clr-font-color);
+}
+
+.delete_contact_btn {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    font-size: large;
+    color: var(--clr-font-color);
+}

@@ -1,0 +1,34 @@
+.App-tittle {
+    text-transform: uppercase;
+}
+
+.unordered_list_nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+
+}
+
+.unordered_list_link {
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.unordered_list_link, .unordered_list_link:hover, .unordered_list_link:focus, .unordered_list_link:active {
+    text-decoration: none;
+    color: inherit;
+    color: var(--clr-header-color);
+
+}
+
+.home_component {
+    margin-top: 15%;
+    font-size: x-large;
+    color: var(--clr-font-color);
+}
